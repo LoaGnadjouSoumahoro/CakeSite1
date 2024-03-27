@@ -1,0 +1,10 @@
+.navLinks {
+  background-color: yellowgreen;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+}
