@@ -22,3 +22,12 @@
 img.imageCakes {
   height: 70px;
 }
+.icon-star {
+  float: left;
+  top: 0px;
+  color: gray;
+}
+
+.price {
+  color: #ffae32;
+}

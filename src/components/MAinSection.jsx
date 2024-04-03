@@ -11,8 +11,8 @@ const MAinSection = () => {
         nisi, vitae iaculis felis. Maecenas a viverra massa.
       </p>
       <br />
+
       <input type='text' placeholder='Enter Zipcode nearest store' />
-      <br />
       <br />
       <br />
       <div className='mainHome-button '>

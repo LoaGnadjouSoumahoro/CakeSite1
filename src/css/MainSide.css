@@ -1,3 +1,5 @@
-img.mainSide {
-  width: 75px;
+.mainSide img {
+  max-width: 100%;
+
+  width: 350px;
 }

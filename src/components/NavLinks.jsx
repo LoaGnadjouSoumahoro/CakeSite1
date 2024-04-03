@@ -1,4 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
+import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
+import { ShoppingCartSharp } from '@mui/icons-material';
 
 const NavLinks = () => {
   return (
@@ -29,7 +31,9 @@ const NavLinks = () => {
           <Link to='about'>Location</Link>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <Link to='/about'>
+            <ShoppingCartSharp />
+          </Link>
         </li>
         <li>
           <Link to='/about'>

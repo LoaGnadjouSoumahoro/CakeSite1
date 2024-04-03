@@ -1,3 +1,15 @@
+.cakeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cakeList-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
 .cakeList {
   display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
