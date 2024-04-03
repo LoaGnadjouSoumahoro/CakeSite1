@@ -1,20 +1,77 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from 'react-router-dom';
 
 const NavLinks = () => {
   return (
-    <div className="navLinks">
-      <ul>
+    <div className='nav'>
+      <nav className='navLeft'>
         <li>
-          <NavLink to="/">Order Online</NavLink>
+          <NavLink to='/' className='logo'>
+            Order Online
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/localPickup">Local Pickup</NavLink>
+          <NavLink to='/localPickup'>Local Pickup</NavLink>
         </li>
         <li>
-          <NavLink to="catering">Catering</NavLink>
+          <NavLink to='/catering'>Catering</NavLink>
         </li>
-      </ul>
+        <li>
+          <NavLink to='/menu'>Menu</NavLink>
+        </li>
+
+        <li>
+          <NavLink to='/about'>About</NavLink>
+        </li>
+      </nav>
+
+      <nav className='navRight'>
+        <li>
+          <Link to='about'>Location</Link>
+        </li>
+        <li>
+          <Link to='/about'>About</Link>
+        </li>
+        <li>
+          <Link to='/about'>
+            <button>Oder Online</button>
+          </Link>
+        </li>
+      </nav>
     </div>
+
+    // <div className='nav'>
+    //   <ul className='navLinks'>
+    //     <li>
+    //       <NavLink to='/' className='logo'>
+    //         Order Online
+    //       </NavLink>
+    //     </li>
+    //     <li>
+    //       <NavLink to='/localPickup'>Local Pickup</NavLink>
+    //     </li>
+    //     <li>
+    //       <NavLink to='/catering'>Catering</NavLink>
+    //     </li>
+    //     <li>
+    //       <NavLink to='/menu'>Menu</NavLink>
+    //     </li>
+
+    //     <li>
+    //       <NavLink to='/about'>About</NavLink>
+    //     </li>
+    //     <li>
+    //       <Link to='about'>Location</Link>
+    //     </li>
+    //     <li>
+    //       <Link to='/about'>About</Link>
+    //     </li>
+    //     <li>
+    //       <Link to='/about' className='linkRight'>
+    //         <button>Oder Online</button>
+    //       </Link>
+    //     </li>
+    //   </ul>
+    // </div>
   );
 };
 

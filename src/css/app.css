@@ -1,7 +1,11 @@
-@import "./home.css";
-@import "./navLink.css";
-@import "./catering.css";
-@import "./localPickup.css";
+@import './home.css';
+@import './navLink.css';
+@import './catering.css';
+@import './localPickup.css';
+@import './MainSection.css';
+@import './MainSide.css';
+@import './itemCake.css';
+@import './MainArticle.css';
 
 * {
   margin: 0;
